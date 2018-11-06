@@ -29,7 +29,7 @@ public class UserRoleController {
 		}
 		ra.addFlashAttribute("alert","alert-red");
 		ra.addFlashAttribute("alertText","Error! Password harus memiliki angka dan huruf serta minimal 8 karakter");
-		return "redirect:/addUser";
+		return "redirect:/";
 	}
 	
 	@RequestMapping(value = "/updatePassword", method = RequestMethod.GET)
